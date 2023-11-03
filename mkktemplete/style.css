@@ -13,6 +13,10 @@
     font-size: 30px;
     text-align: center;
 }
+.border-rounded{
+    border-radius: 10px;
+    background: #ec2727;
+}
 
 #hello{
     color: rgb(214, 29, 29);
@@ -568,9 +572,10 @@ section {
 --------------------------------------------------------------*/
 
 .about .about-img {
-    min-height: 500px;
-    border-radius: 10px; ;
+    width: 400px;
+    border-radius: 50%;
 }
+
 
 .about input{
     width: 100%;
