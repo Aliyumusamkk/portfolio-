@@ -21,6 +21,10 @@
 #hello{
     color: #900808;
 }
+input, textarea{
+    margin-top: 7px;
+}
+
 
 /**
 * Template Name: Yummy
@@ -515,7 +519,7 @@ section {
 --------------------------------------------------------------*/
 
 .about .about-img {
-    width: 500px;
+    width: 600px;
 }
 
 
