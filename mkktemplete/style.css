@@ -1161,9 +1161,9 @@ section {
 
 .chefs .chef-member .member-info span {
     display: block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    color: rgba(33, 37, 41, 0.4);
+    color: rgba(7, 104, 230, 0.788);
 }
 
 .chefs .chef-member .member-info p {
