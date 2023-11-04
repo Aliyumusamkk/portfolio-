@@ -21,7 +21,7 @@
 #hello{
     color: #900808;
 }
-input, textarea{
+.contact-input input textarea{
     margin-top: 7px;
 }
 
