@@ -4,6 +4,7 @@
     color: transparent;
     display:inline-block;
     font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #what-texts{
     background:linear-gradient(90deg, #e67e96, #3e1da2);
@@ -12,6 +13,7 @@
     display:inline-block;
     font-size: 30px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .border-rounded{
     border-radius: 10px;
@@ -20,6 +22,7 @@
 
 #hello{
     color: #900808;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #contact-input{
     margin-top: 7px;
@@ -44,6 +47,7 @@
     --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-primary: "Amatic SC", sans-serif;
     --font-secondary: "Inter", sans-serif;
+   
 }
 
 /* Colors */
@@ -52,6 +56,7 @@
     --color-default: #212529;
     --color-primary:#900808;
     --color-secondary: #37373f;
+
 }
 
 /* Smooth scroll behavior */
@@ -99,6 +104,7 @@ section {
 
 .section-bg {
     background-color: #eee;
+  
 }
 
 .section-header {
