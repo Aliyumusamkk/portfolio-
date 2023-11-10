@@ -1,49 +1,3 @@
-#portfolio-text{
-    background:linear-gradient(90deg, #10649c, #032538);
-    -webkit-background-clip: text;
-    color: transparent;
-    display:inline-block;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#what-texts{
-    background:linear-gradient(90deg, #10649c, #032538);
-    -webkit-background-clip: text;
-    color: transparent;
-    display:inline-block;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.border-rounded{
-    border-radius: 10px;
-    background: #10649c;
-}
-
-#hello{
-    color: #10649c;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#contact-input{
-    margin-top: 7px;
-}
-#skills-img{
-    width: 50px;
-    margin-left: -25px;
-}
-
-
-/**
-* Template Name: Yummy
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
 
 /* Fonts */
 
@@ -95,6 +49,107 @@ h4,
 h5,
 h6 {
     font-family: var(--font-secondary);
+}
+
+/*--------------------------------------------------------------
+#Random coutomizing
+---------------------------------------------------------------*/
+#portfolio-text{
+    background:linear-gradient(90deg, #10649c, #032538);
+    -webkit-background-clip: text;
+    color: transparent;
+    display:inline-block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#what-texts{
+    background:linear-gradient(90deg, #10649c, #032538);
+    -webkit-background-clip: text;
+    color: transparent;
+    display:inline-block;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.border-rounded{
+    border-radius: 10px;
+    background: #10649c;
+}
+
+#hello{
+    color: #10649c;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact-input{
+    margin-top: 7px;
+}
+#skills-img{
+    width: 50px;
+    margin-left: -25px;
+}#portfolio-text{
+    background:linear-gradient(90deg, #10649c, #032538);
+    -webkit-background-clip: text;
+    color: transparent;
+    display:inline-block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#what-texts{
+    background:linear-gradient(90deg, #10649c, #032538);
+    -webkit-background-clip: text;
+    color: transparent;
+    display:inline-block;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.border-rounded{
+    border-radius: 10px;
+    background: #10649c;
+}
+
+#hello{
+    color: #10649c;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact-input{
+    margin-top: 7px;
+}
+#skills-img{
+    width: 50px;
+    margin-left: -25px;
+}#portfolio-text{
+    background:linear-gradient(90deg, #10649c, #032538);
+    -webkit-background-clip: text;
+    color: transparent;
+    display:inline-block;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#what-texts{
+    background:linear-gradient(90deg, #10649c, #032538);
+    -webkit-background-clip: text;
+    color: transparent;
+    display:inline-block;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.border-rounded{
+    border-radius: 10px;
+    background: #10649c;
+}
+
+#hello{
+    color: #10649c;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact-input{
+    margin-top: 7px;
+}
+#skills-img{
+    width: 50px;
+    margin-left: -25px;
 }
 
 /*--------------------------------------------------------------
@@ -620,7 +675,7 @@ section {
 # team Section
 --------------------------------------------------------------*/
 
-.chefs .chef-member {
+.team .team-member {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -629,12 +684,12 @@ section {
     transition: 0.3s;
 }
 
-.chefs .chef-member .member-img {
+.team .team-member .member-img {
     position: relative;
     overflow: hidden;
 }
 
-.chefs .chef-member .member-img:after {
+.team .team-member .member-img:after {
     position: absolute;
     content: "";
     left: 0;
@@ -646,7 +701,7 @@ section {
     z-index: 1;
 }
 
-.chefs .chef-member .social {
+.team .team-member .social {
     position: absolute;
     right: -100%;
     top: 30px;
@@ -657,7 +712,7 @@ section {
     z-index: 2;
 }
 
-.chefs .chef-member .social a {
+.team .team-member .social a {
     transition: color 0.3s;
     color: rgba(55, 55, 63, 0.4);
     margin: 15px 12px;
@@ -666,33 +721,33 @@ section {
     text-align: center;
 }
 
-.chefs .chef-member .social a:hover {
+.team .team-member .social a:hover {
     color: rgba(55, 55, 63, 0.9);
 }
 
-.chefs .chef-member .social i {
+.team .team-member .social i {
     font-size: 18px;
 }
 
-.chefs .chef-member .member-info {
+.team .team-member .member-info {
     padding: 10px 15px 20px 15px;
 }
 
-.chefs .chef-member .member-info h4 {
+.team .team-member .member-info h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: var(--color-secondary);
 }
 
-.chefs .chef-member .member-info span {
+.team .team-member .member-info span {
     display: block;
     font-size: 18px;
     font-weight: 400;
     color: rgba(45, 126, 231, 0.788);
 }
 
-.chefs .chef-member .member-info p {
+.team .team-member .member-info p {
     font-style: italic;
     font-size: 16px;
     padding-top: 15px;
@@ -700,12 +755,12 @@ section {
     color: #185e86;
 }
 
-.chefs .chef-member:hover {
+.team .team-member:hover {
     transform: scale(1.08);
     box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
 }
 
-.chefs .chef-member:hover .social {
+.team .team-member:hover .social {
     right: 8px;
     opacity: 1;
 }
