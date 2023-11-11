@@ -123,8 +123,24 @@ h6 {
     padding: 10px 18px;
 }
 @media (max-width: 700px){
+    .bnt-submit{
+        border-radius: 15px;
+        background: #10649c;
+        border: none;
+        position: absolute;
+        padding: 10px 18px;
+        
+    }
     .bnt-submits{
+        border-radius: 15px;
+        background: #5da3d1;
+        border: none;
+        position: relative;
+        right: .40%;
+        margin-top: 18px;
         margin-left: 3px;
+        z-index: 1;
+        padding: 10px 18px;
     }
 }
 
